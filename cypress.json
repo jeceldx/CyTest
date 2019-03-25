@@ -1,0 +1,14 @@
+{
+  "projectId": "jsc8ec",
+  "baseUrl": "http://www.ijiaol.com",
+  "chromeWebSecurity": false,
+  "requestTimeout": 30000,
+  "pageLoadTimeout": 100000,
+  "testFiles": "**/*.spec.js",
+  "integrationFolder": "test/e2e/integration",
+  "screenshotsFolder": "test/e2e/screenshots",
+  "fixturesFolder": "test/e2e/fixtures",
+  "videosFolder": "test/e2e/videos",
+  "viewportHeight": 768,
+  "viewportWidth": 1366
+}
