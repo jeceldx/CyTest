@@ -21,7 +21,7 @@ describe('靓万家商城注册测试用例集', function () {
     cy.get(':nth-child(3) > .el-form-item__content > .el-input > .el-input__inner').type(this.registerJson.userPassWord);
     cy.get(':nth-child(4) > .el-form-item__content > .el-input > .el-input__inner').type(this.registerJson.userPassWord);
     cy.get('.login-but').click();
-    cy.screenshot()
+
 
   })
   // it('用户注册', function () {
@@ -48,7 +48,7 @@ describe('靓万家商城注册测试用例集', function () {
   //   cy.get(':nth-child(3) > .el-form-item__content > .el-input > .el-input__inner').type('abc123');
   //   cy.get(':nth-child(4) > .el-form-item__content > .el-input > .el-input__inner').type('abc123');
   //   cy.get('.login-but').click();
-  //   cy.screenshot()
+
 
   // })
 

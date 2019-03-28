@@ -18,7 +18,6 @@ describe('靓万家商城登录测试用例集', function () {
     cy.wait(1000);
     //设置断言来验证登录成功
     cy.url().should('contains', 'ucenter/index1');
-    cy.screenshot();
   })
   beforeEach(() => {
     cy.visit('/index')
