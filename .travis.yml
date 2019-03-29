@@ -10,8 +10,9 @@ cache:
     # we also need to cache folder with Cypress binary
     - ~/.cache
 before_install:
+  - sudo apt-get install language-pack-zh-hans
   - sudo locale-gen zh_CN.UTF-8
 install:
   - npm ci
 script:
-  - $(npm bin)/cypress run --record --key 0bb06b9e-3db7-4d01-9472-0aa8cc83ae21 -b chrome
+  - $(npm bin)/cypress run --record --key 0bb06b9e-3db7-4d01-9472-0aa8cc83ae21
