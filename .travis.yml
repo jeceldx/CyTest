@@ -10,8 +10,6 @@ cache:
     # we also need to cache folder with Cypress binary
     - ~/.cache
 before_install:
-  - sudo apt-get install language-pack-zh-hans
-  - sudo locale-gen zh_CN.UTF-8
   - sudo apt-get install ttf-wqy-zenhei 
 install:
   - npm ci
