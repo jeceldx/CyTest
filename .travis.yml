@@ -14,4 +14,4 @@ before_install:
 install:
   - npm ci
 script:
-  - $(npm bin)/cypress run --record --key 0bb06b9e-3db7-4d01-9472-0aa8cc83ae21
+  - $(npm bin)/cypress run --record --key 0bb06b9e-3db7-4d01-9472-0aa8cc83ae21 -b chrome
