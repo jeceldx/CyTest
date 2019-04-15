@@ -52,12 +52,12 @@ describe('靓万家商城注册测试用例集', function () {
 
   // })
 
-  // it('1读取fixture', function () {
-  //   cy.fixture("users.json").then($data => {
-  //     cy.log($data.phone)
+  it('1读取fixture', function () {
+    cy.fixture("users.json").then($data => {
+      cy.log($data.phone)
 
-  //   })
-  // })
+    })
+  })
 })
 
 

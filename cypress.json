@@ -9,6 +9,7 @@
   "screenshotsFolder": "test/e2e/screenshots",
   "fixturesFolder": "test/e2e/fixtures",
   "videosFolder": "test/e2e/videos",
+  "supportFolder": "test/e2e/support",
   "viewportHeight": 768,
   "viewportWidth": 1366
 }
